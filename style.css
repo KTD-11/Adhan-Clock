@@ -67,6 +67,12 @@ h1
     flex-direction: column;
     margin: 1vmax;
     text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.children-container div:hover
+{
+    transform: translate(0, -2vmax);
 }
 
 #toAyah
