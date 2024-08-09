@@ -1,0 +1,90 @@
+:root
+{
+    --grad-bistre: hsla(22, 24%, 15%, .5);
+    --timberwolf: hsla(42, 16%, 84%, .5);
+    --walnut-brown: hsla(32, 19%, 31%, 1);
+    --grad-licorice: hsla(18, 18%, 11%, 1);
+    --day: rgb(196, 183, 183);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&family=Reem+Kufi+Ink&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(https://images.unsplash.com/photo-1626602833614-e9c037d11799?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
+}
+
+section
+{
+    border-image: fill 1 linear-gradient(var(--grad-bistre), var(--grad-licorice));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+}
+
+h1
+{
+    margin: 0;
+    color: rgb(207, 207, 207);
+    font-size: 4.5rem;
+}
+
+.children-container
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vmax;
+}
+
+.children-container div
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1vmax;
+    text-align: center;
+}
+
+#toAyah
+{
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+}
+
+#toAyah:hover
+{
+    cursor: pointer;
+}
+
+.swal2-popup 
+{
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+} 
+
+
